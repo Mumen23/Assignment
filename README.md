@@ -67,6 +67,7 @@ Generated Output
 Visualizations: The Python and R scripts generate plots and save them in the working directory.
 
 
+
 3. Running the Python Script
    
 Ensure the dataset (salaries.csv) is in the same directory as script.py.
@@ -89,32 +90,65 @@ The script will generate descriptive statistics and visualizations (e.g., histog
 
 Saved visualizations will be in the current working directory.
 
-7. Running the R Script
+
+4. Running the R Script
+   
 Ensure the dataset (salaries.csv) is in the same directory as script.R.
+
 Open RStudio and load the script.R script.
+
 Set the working directory to the folder containing the dataset:
+
 R
+
 Copy
+
 Edit
+
 setwd("path/to/your/directory")
+
 Source the script by running:
+
 R
+
 Copy
+
 Edit
+
 source(“script.R”)
+
 Outputs:
+
 The R script will generate similar descriptive statistics and visualizations.
+
 Saved visualizations will be in the current working directory.
-8. Key Features
+
+
+5. Key Features
+   
 Data Cleaning: Handles missing and duplicated data.
+
 Exploratory Data Analysis (EDA): Provides insights into the distribution of salaries, job titles, and other key metrics.
+
 Visualizations:
+
 Bar plots for salary comparisons.
+
 Histograms for salary distributions.
+
 Aggregated data summaries.
-9. Customization
+
+
+6. Customization
+   
 For Python: Modify the script.py file to adjust visualizations or add new analysis.
+
 For R: Edit the script.R file to add additional plots or summary statistics.
-10. Troubleshooting
+
+
+7. Troubleshooting
+   
 Ensure the salaries.csv file is formatted correctly and matches the column names used in the scripts.
+
 If any library is missing, install it using the provided installation commands.
+
