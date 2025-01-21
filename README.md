@@ -12,16 +12,27 @@ pandas
 Install the libraries using:
 
 bash
+
 Copy
+
 Edit
+
 pip install pandas
+
 For R
+
 R (version 4.0 or higher)
+
 Required packages:
+
 ggplot2
+
 dplyr
+
 tidyr
+
 Install the R packages using:
+
 
 R
 Copy
